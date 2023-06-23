@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Environment>
+    <!-- General -->
+    <WaitTime>2</WaitTime>
+    <ScreenshotPath>./../allure_screen_shots/</ScreenshotPath>
+<!--    <ScreenshotPath>./allure_screen_shots/</ScreenshotPath>-->
+
+    <!-- Web -->
+    <Browser>Chrome</Browser>
+    <UrlSaucedemo>https://www.saucedemo.com/</UrlSaucedemo>
+    <UrlRottentomatoes>https://www.rottentomatoes.com/</UrlRottentomatoes>
+    <UserName>standard_user</UserName>
+    <Password>secret_sauce</Password>
+    <CSV_Location>../../ddt/movies.csv</CSV_Location>
+<!--    <CSV_Location>ddt/movies.csv</CSV_Location>-->
+
+    <ResultTitle>Movies</ResultTitle>
+    <Execute_Applitools>no</Execute_Applitools>  <!-- yes/no -->
+    <Applitools_Key>StKi2h5pzzImVcYClaatU1030gJalWxJ4BFoqQc4QFCls110</Applitools_Key>
+
+    <!-- Mobile -->
+    <Mobile_Device>Android</Mobile_Device>
+    <Udid>0715f762f4a23138</Udid>
+    <App_Package>com.shivgadhia.android.ukMortgageCalc</App_Package>
+    <App_Activity>.MainActivity</App_Activity>
+    <Bundle_ID>com.shivgadhia.ukMortgageCalc</Bundle_ID>
+    <Appium_Server>http://localhost:4723/wd/hub</Appium_Server>
+    <Swipe_Duration>200</Swipe_Duration>
+
+    <!-- API -->
+    <Api_Url>http://localhost:9000/</Api_Url>
+
+    <!-- Electron -->
+    <Electron_App>C:/Users/User/AppData/Local/Programs/todolist/Todolist.exe</Electron_App>
+    <Electron_Driver>C:/electron/ElectronDriver/electrondriver.exe</Electron_Driver>
+
+    <!-- Desktop-->
+    <Application_Name>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</Application_Name>
+    <WinAppDriver_Service>http://127.0.0.1:4723</WinAppDriver_Service>
+
+    <!-- Database-->
+    <DB_Host>sql8.freemysqlhosting.net</DB_Host>
+    <DB_Name>sql8626661</DB_Name>
+    <DB_User>sql8626661</DB_User>
+    <DB_Pass>JgrMpFCGN1</DB_Pass>
+
+</Environment>
