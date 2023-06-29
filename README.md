@@ -32,7 +32,10 @@ This project performs automated testing of various applications and platforms:
 - Visual testing - Applitools  
 - Web Driver  
 - Appium Studio integration (Android and IOS)  
-- API support 
+- API support
+  
+<img width="396" alt="api data" src="https://github.com/Batela24/Test_Automation_Final__project/assets/135311137/6057bb72-80c4-46e1-93ce-a0792b68e9f8">
+
 - Electron and Desktop driver
 - Database support 
 - CI & CD support
@@ -60,7 +63,10 @@ https://github.com/Batela24/Test_Automation_Final__project/assets/135311137/236f
 
 - Selenium Framework Automation testing on browsers 
 - Pytest- Testing Framework 
-- REST Assured for API Testing 
+- REST Assured for API Testing
+
+https://github.com/Batela24/Test_Automation_Final__project/assets/135311137/e684a45a-dc92-429d-9b37-81280a6725a9
+
 - Appium Studio for Mobile Testing
 - MySQL Free online Database to store Login Credentials for the Saucedemo site
   
