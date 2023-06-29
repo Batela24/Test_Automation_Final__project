@@ -33,7 +33,7 @@ This project performs automated testing of various applications and platforms:
 - Web Driver  
 - Appium Studio integration (Android and IOS)  
 - API support 
-- Electron and Desktop driver 
+- Electron and Desktop driver
 - Database support 
 - CI & CD support
 
@@ -49,6 +49,9 @@ https://github.com/Batela24/Test_Automation_Final__project/assets/135311137/db16
 
 - **Students-** API server tested with request and response JSON
 - **TodoList-** Desktop application tested with ElectronDriver
+
+https://github.com/Batela24/Test_Automation_Final__project/assets/135311137/f6731b65-1c3a-4acc-816e-eed0f65b65e8
+
 - **Windows Calculator-** Desktop application tested with WinAppDriver
 
 https://github.com/Batela24/Test_Automation_Final__project/assets/135311137/236fa6e2-f05b-45ca-a00c-0fefea4f89ee
@@ -65,6 +68,9 @@ https://github.com/Batela24/Test_Automation_Final__project/assets/135311137/7757
 
 - Listeners - interface for generating Logs
 - Open new tabs and switch (windows) on the web
+
+https://github.com/Batela24/Test_Automation_Final__project/assets/135311137/0d072581-a6c0-4662-b6fc-64e97569e0cd
+  
 - Random - python methods
 - Jenkins for Automating Test executions & Test Pipelines
 
@@ -81,8 +87,23 @@ https://github.com/Batela24/Test_Automation_Final__project/assets/135311137/d28f
 3. Configuration file & DB credentials have been redacted - Adding images of them
 ![image](https://github.com/Batela24/Test_Automation_Final__project/assets/135311137/41707969-1447-4b2f-b6cb-ac717a460943)
 ![image](https://github.com/Batela24/Test_Automation_Final__project/assets/135311137/6b24d3c4-1453-45c6-9ac4-650483c2028b)
-4. Adding the Jnkins commands for the API, Electron, and desktop tests (they need special options before/after the test):
+4. Adding the Jenkins general and specific commands for the API, Electron, and desktop tests (they need special options before/after the test):
+- The general directory path for all the jobs:
 
+<img width="400" alt="general directory path" src="https://github.com/Batela24/Test_Automation_Final__project/assets/135311137/86b2fa02-ff62-4232-aad9-065963351cba">
 
+- Commands For API:
 
+<img width="634" alt="build steps for api" src="https://github.com/Batela24/Test_Automation_Final__project/assets/135311137/d8d3b5ba-c360-4119-903d-dc74fed04f2b">
 
+- Commands For Electron:
+
+<img width="625" alt="build step for electron" src="https://github.com/Batela24/Test_Automation_Final__project/assets/135311137/5366eafb-7cae-4c82-8605-3158af5b6466">
+
+- Commands For Desktop:
+  
+<img width="632" alt="build step for desktop" src="https://github.com/Batela24/Test_Automation_Final__project/assets/135311137/b29d60c9-fc3d-446d-9e44-18d93db3beaf">
+
+- Allure command on Jenkins (after you download the plugin)
+
+<img width="631" alt="allure option on jenkins" src="https://github.com/Batela24/Test_Automation_Final__project/assets/135311137/b3b0d1e1-e1fe-4e7b-a5da-f595e137216b">
